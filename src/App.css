@@ -1,0 +1,84 @@
+.password-strength-checker {
+  font-family:sans-serif;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.password-input input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-input button {
+  width: 18%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.password-input button:hover {
+  background-color: #0056b3;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.strength-indicator p {
+  margin: 5px 0;
+}
+
+.strength-indicator ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.strength-indicator ul li {
+  margin-bottom: 5px;
+}
+
+.strength-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.strength-bar-fill {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  color: #000000;
+  font-family:sans-serif
+}
